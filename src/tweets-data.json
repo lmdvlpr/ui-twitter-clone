@@ -1,30 +1,35 @@
 [
   {
     "id": 1,
+    "avatar": "https://github.com/lmdvlpr.png",
     "userName": "Lucas Mota",
     "nickName": "@lmdvlpr",
     "content": "Aproveitando o feriado de carnaval para recriar a interface do Twitter com o Diego Fernandes da Rocketseat na Masterclass React 2023."
   },
   {
     "id": 2,
+    "avatar": "https://xesque.rocketseat.dev/users/avatar/profile-cc9d7dd3-dd0e-46c6-8bd2-b98dc45574f8-1667264945832.jpg",
     "userName": "Janaína Alves",
     "nickName": "@ajanamota",
     "content": "Vai, sapato! Se declara logo para a Amanda! 😍."
   },
   {
     "id": 3,
-    "userName": "Angelo Alves",
+    "avatar": "https://xesque.rocketseat.dev/users/avatar/profile-4079bfc2-e123-4261-b2f5-b2a0553639e7-1662506727905.jpg",
+    "userName": "Angelo Gabriel",
     "nickName": "@anjoff",
     "content": "Respeita o pai! Aqui é so CAPA no frifas! 😝"
   },
   {
     "id": 4,
+    "avatar": "https://github.com/diego3g.png",
     "userName": "Diego Fernandes",
     "nickName": "@diego3g",
     "content": "Vem conferir a Masterclass React que eu preparei para você entender de uma vez por todas o báscio de React e iniciar 2023 do jeito certo (link na bio) ⚛🚀."
   },
   {
     "id": 5,
+    "avatar": "https://github.com/maykbrito.png",
     "userName": "Mayk Brito",
     "nickName": "@maykbrito",
     "content": "Vem comigo aprender a criar o teu primeiro site! Estou falando do projeto da Rocketseat chamado DevLinks (link na bio)."

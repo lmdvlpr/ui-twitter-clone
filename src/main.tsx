@@ -8,40 +8,7 @@ import { Sidebar } from './components/Sidebar'
 import { Header } from './components/Header'
 import { Separator } from './components/Separator'
 
-// import tweetsData from './tweet-data.json'
-
-const tweets = [
-  {
-    "id": 1,
-    "userName": "Lucas Mota",
-    "nickName": "@lmdvlpr",
-    "content": "Aproveitando o feriado de carnaval para recriar a interface do Twitter com o Diego Fernandes da Rocketseat na Masterclass React 2023."
-  },
-  {
-    "id": 2,
-    "userName": "Janaína Alves",
-    "nickName": "@ajanamota",
-    "content": "Vai, sapato! Se declara logo pra Amanda! 😍."
-  },
-  {
-    "id": 3,
-    "userName": "Angelo Alves",
-    "nickName": "@anjoff",
-    "content": "Respeita o pai! Aqui é so CAPA no frifas! 😝"
-  },
-  {
-    "id": 4,
-    "userName": "Diego Fernandes",
-    "nickName": "@diego3g",
-    "content": "Vem conferir a Masterclass React que eu preparei para você entender de uma vez por todas o báscio de React e iniciar 2023 do jeito certo (link na bio) ⚛🚀."
-  },
-  {
-    "id": 5,
-    "userName": "Mayk Brito",
-    "nickName": "@maykbrito",
-    "content": "Vem comigo aprender a criar o teu primeiro site! Estou falando do projeto da Rocketseat chamado DevLinks (link na bio)."
-  }
-]
+import tweets from './tweets-data.json'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -66,7 +33,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
           {tweets.map(tweet => {
             return <Tweet
+              key={tweet.id}
               id={tweet.id}
+              avatar={tweet.avatar}
               userName={tweet.userName}
               nickName={tweet.nickName}
               content={tweet.content}

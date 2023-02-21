@@ -4,15 +4,16 @@ import './Tweet.css'
 
 interface TweetProps {
   id: number,
+  avatar: string,
   userName: string,
   nickName: string,
   content: string
 }
 
-export function Tweet(props: TweetProps) {
+export function Tweet(props: TweetProps): JSX.Element {
   return (
     <a href='#' className="tweet">
-      <img src="https://github.com/lmdvlpr.png" alt="User Avatar" />
+      <img src={props.avatar} alt="User Avatar" />
 
       <div className="tweet-content">
 
